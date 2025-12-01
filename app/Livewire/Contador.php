@@ -1,0 +1,27 @@
+<?php
+
+namespace App\Livewire;
+
+use Livewire\Component;
+
+class Contador extends Component
+{
+
+    public $count = 0;
+
+    //$cant el parametro opcional puede tener un valor ej: $cant =1
+    public function increment()
+    {
+        $this->count++;
+    }
+
+    public function decrement()
+    {
+        $this->count--;
+    }
+
+    public function render()
+    {
+        return view('livewire.contador');
+    }
+}
