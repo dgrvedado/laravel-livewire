@@ -45,4 +45,6 @@ Route::middleware([
 
     //De esta forma se define que toda la pagina es reactiva con livewire
     //Route::get('/dashboard', CreatePost::class)->name('dashboard');
+
+    Route::view('/prueba', 'prueba')->name('prueba');
 });

@@ -51,7 +51,8 @@ return [
     |
     */
 
-    'lazy_placeholder' => null,
+    //'lazy_placeholder' => null,
+    'lazy_placeholder' => 'livewire.placeholders.skeleton',
 
     /*
     |---------------------------------------------------------------------------
